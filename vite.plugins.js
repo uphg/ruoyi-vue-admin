@@ -22,7 +22,7 @@ export default function createVitePlugins({ command }) {
     }),
     Components({
       dts: 'src/components.d.ts',
-      dirs: ['src/components'],
+      dirs: [],
       // file suffixes
       extensions: ['vue', 'jsx', 'tsx'],
       resolvers: [NaiveUiResolver()],
